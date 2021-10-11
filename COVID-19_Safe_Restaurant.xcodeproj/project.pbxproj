@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D3107EE1EF085F01AD202E /* Pods_COVID_19_Safe_Restaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EF1D1F65A918D4852FD9B6 /* Pods_COVID_19_Safe_Restaurant.framework */; };
 		9968FB1727141D3D00B28535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968FB1627141D3D00B28535 /* AppDelegate.swift */; };
 		9968FB1927141D3D00B28535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968FB1827141D3D00B28535 /* SceneDelegate.swift */; };
 		9968FB1B27141D3D00B28535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968FB1A27141D3D00B28535 /* ViewController.swift */; };
 		9968FB1E27141D3D00B28535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9968FB1C27141D3D00B28535 /* Main.storyboard */; };
 		9968FB2027141D3F00B28535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9968FB1F27141D3F00B28535 /* Assets.xcassets */; };
 		9968FB2327141D3F00B28535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9968FB2127141D3F00B28535 /* LaunchScreen.storyboard */; };
+		9968FB2D27141F7900B28535 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968FB2C27141F7900B28535 /* Request.swift */; };
+		9968FB2F27141F8300B28535 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968FB2E27141F8300B28535 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2898526E29FE0E98E6273F0C /* Pods-COVID-19_Safe_Restaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID-19_Safe_Restaurant.release.xcconfig"; path = "Target Support Files/Pods-COVID-19_Safe_Restaurant/Pods-COVID-19_Safe_Restaurant.release.xcconfig"; sourceTree = "<group>"; };
+		93EF1D1F65A918D4852FD9B6 /* Pods_COVID_19_Safe_Restaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COVID_19_Safe_Restaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9968FB1327141D3D00B28535 /* COVID-19_Safe_Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19_Safe_Restaurant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9968FB1627141D3D00B28535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9968FB1827141D3D00B28535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		9968FB1F27141D3F00B28535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9968FB2227141D3F00B28535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9968FB2427141D3F00B28535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9968FB2C27141F7900B28535 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		9968FB2E27141F8300B28535 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		B86B8BDDDEB0815745DABA78 /* Pods-COVID-19_Safe_Restaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID-19_Safe_Restaurant.debug.xcconfig"; path = "Target Support Files/Pods-COVID-19_Safe_Restaurant/Pods-COVID-19_Safe_Restaurant.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D3107EE1EF085F01AD202E /* Pods_COVID_19_Safe_Restaurant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48EBE0210D14BF3DEA3165F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B86B8BDDDEB0815745DABA78 /* Pods-COVID-19_Safe_Restaurant.debug.xcconfig */,
+				2898526E29FE0E98E6273F0C /* Pods-COVID-19_Safe_Restaurant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D6A8FF3CC468121405169ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93EF1D1F65A918D4852FD9B6 /* Pods_COVID_19_Safe_Restaurant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9968FB0A27141D3D00B28535 = {
 			isa = PBXGroup;
 			children = (
 				9968FB1527141D3D00B28535 /* COVID-19_Safe_Restaurant */,
 				9968FB1427141D3D00B28535 /* Products */,
+				48EBE0210D14BF3DEA3165F4 /* Pods */,
+				5D6A8FF3CC468121405169ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,33 @@
 		9968FB1527141D3D00B28535 /* COVID-19_Safe_Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				9968FB2A27141F5200B28535 /* Request */,
+				9968FB2B27141F5E00B28535 /* Response */,
+				9968FB1A27141D3D00B28535 /* ViewController.swift */,
 				9968FB1627141D3D00B28535 /* AppDelegate.swift */,
 				9968FB1827141D3D00B28535 /* SceneDelegate.swift */,
-				9968FB1A27141D3D00B28535 /* ViewController.swift */,
 				9968FB1C27141D3D00B28535 /* Main.storyboard */,
 				9968FB1F27141D3F00B28535 /* Assets.xcassets */,
 				9968FB2127141D3F00B28535 /* LaunchScreen.storyboard */,
 				9968FB2427141D3F00B28535 /* Info.plist */,
 			);
 			path = "COVID-19_Safe_Restaurant";
+			sourceTree = "<group>";
+		};
+		9968FB2A27141F5200B28535 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				9968FB2C27141F7900B28535 /* Request.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		9968FB2B27141F5E00B28535 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				9968FB2E27141F8300B28535 /* Response.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9968FB2727141D3F00B28535 /* Build configuration list for PBXNativeTarget "COVID-19_Safe_Restaurant" */;
 			buildPhases = (
+				9ADCC1B8507CF48CCCB095EC /* [CP] Check Pods Manifest.lock */,
 				9968FB0F27141D3D00B28535 /* Sources */,
 				9968FB1027141D3D00B28535 /* Frameworks */,
 				9968FB1127141D3D00B28535 /* Resources */,
+				8BD0579EDE0AF08FF458EE11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +181,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BD0579EDE0AF08FF458EE11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVID-19_Safe_Restaurant/Pods-COVID-19_Safe_Restaurant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVID-19_Safe_Restaurant/Pods-COVID-19_Safe_Restaurant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COVID-19_Safe_Restaurant/Pods-COVID-19_Safe_Restaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADCC1B8507CF48CCCB095EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COVID-19_Safe_Restaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9968FB0F27141D3D00B28535 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9968FB1B27141D3D00B28535 /* ViewController.swift in Sources */,
+				9968FB2D27141F7900B28535 /* Request.swift in Sources */,
 				9968FB1727141D3D00B28535 /* AppDelegate.swift in Sources */,
 				9968FB1927141D3D00B28535 /* SceneDelegate.swift in Sources */,
+				9968FB2F27141F8300B28535 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +376,7 @@
 		};
 		9968FB2827141D3F00B28535 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86B8BDDDEB0815745DABA78 /* Pods-COVID-19_Safe_Restaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +405,7 @@
 		};
 		9968FB2927141D3F00B28535 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2898526E29FE0E98E6273F0C /* Pods-COVID-19_Safe_Restaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
